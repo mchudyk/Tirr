@@ -1,0 +1,54 @@
+  .welcome-container {
+    text-align: center;
+    padding-top: 100px; /* Increase padding at the top */
+  }
+  
+  .welcome-header {
+    font-size: 3em; /* Larger font size for the header */
+    margin-bottom: 50px; /* Increase space between header and buttons */
+    color: #3E83F7; /* Header text color */
+  }
+  
+  .buttons-container {
+    display: flex;
+    justify-content: center; /* Center buttons horizontally */
+    gap: 20px; /* Increase space between buttons */
+  }
+  
+  .btn {
+    background-color: #3E83F7; /* Button background color */
+    border: none;
+    border-radius: 5px;
+    padding: 20px 40px; /* Larger padding for bigger buttons */
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1.5em; /* Larger font size for buttons */
+    margin: 10px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    color: white; /* Button text color */
+  }
+  
+  .btn a {
+    text-decoration: none;
+    color: inherit; /* Ensures the link color matches the button text color */
+  }
+  
+  .btn:hover {
+    background-color: #ffffff; /* Hover color for buttons */
+    color: #3E83F7; /* Hover text color */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Shadow for visual effect */
+  }
+  
+  @media (max-width: 600px) {
+    .buttons-container {
+      flex-direction: column;
+    }
+  
+    .btn {
+      width: 80%;
+      margin: 10px auto; /* Center buttons on smaller screens */
+    }
+  }
+  
